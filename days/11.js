@@ -1,19 +1,5 @@
-const temp0 = "L.LL.LL.LL\n\
-LLLLLLL.LL\n\
-L.L.L..L..\n\
-LLLL.LL.LL\n\
-L.LL.LL.LL\n\
-L.LLLLL.LL\n\
-..L.L.....\n\
-LLLLLLLLLL\n\
-L.LLLLLL.L\n\
-L.LLLLL.LL";
-
-const initialData = temp0.trim().split("\n").map(line => (line.split(''))).filter(value => value);
-
-
-// const temp0 = document.body.getElementsByTagName('pre')[0];
-// const initialData = temp0.textContent.trim().split("\n").map(line => (line.split(''))).filter(value => value);
+const temp0 = document.body.getElementsByTagName('pre')[0];
+const initialData = temp0.textContent.trim().split("\n").map(line => (line.split(''))).filter(value => value);
 
 // part one
 // Cartesian procedural neighbors finder, see https://github.com/gbirke/game-of-life-functional-grid/blob/master/src/find_neighbors_cartesian_procedural.js
